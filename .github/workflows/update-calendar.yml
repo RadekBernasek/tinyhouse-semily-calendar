@@ -1,0 +1,33 @@
+name: Update Airbnb Calendar
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Airbnb calendar
+        run: |
+          curl -s -L -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://www.airbnb.cz/calendar/ical/1713035516374967942.ics?t=9961ee8428554f688946a3ee7eefa90a" \
+          -o calendar.ics
+
+      - name: Convert to JSON
+        run: python3 convert_ics.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add calendar.json calendar.ics
+          git diff --quiet --cached || git commit -m "Update calendar data"
+          git push
