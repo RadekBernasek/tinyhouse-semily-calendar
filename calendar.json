@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T04:20:38.398892Z",
+  "updated": "2026-09-11T11:04:53.441985Z",
   "events": [
     {
       "start": "2026-09-08",
@@ -24,11 +24,6 @@
     {
       "start": "2026-10-02",
       "end": "2026-10-04",
-      "summary": "Reserved"
-    },
-    {
-      "start": "2026-10-09",
-      "end": "2026-10-11",
       "summary": "Reserved"
     },
     {
@@ -89,16 +84,6 @@
     {
       "start": "2026-10-04",
       "end": "2026-10-05",
-      "summary": "Airbnb (Not available)"
-    },
-    {
-      "start": "2026-10-08",
-      "end": "2026-10-09",
-      "summary": "Airbnb (Not available)"
-    },
-    {
-      "start": "2026-10-11",
-      "end": "2026-10-12",
       "summary": "Airbnb (Not available)"
     },
     {
