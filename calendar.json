@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T21:25:27.392013Z",
+  "updated": "2026-09-25T04:39:46.783736Z",
   "events": [
     {
       "start": "2026-09-23",
@@ -32,6 +32,11 @@
       "summary": "Reserved"
     },
     {
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "summary": "Reserved"
+    },
+    {
       "start": "2026-12-30",
       "end": "2027-01-03",
       "summary": "Reserved"
@@ -55,11 +60,6 @@
       "start": "2027-06-19",
       "end": "2027-06-28",
       "summary": "Reserved"
-    },
-    {
-      "start": "2026-09-22",
-      "end": "2026-09-23",
-      "summary": "Airbnb (Not available)"
     },
     {
       "start": "2026-09-26",
@@ -109,6 +109,16 @@
     {
       "start": "2026-11-01",
       "end": "2026-11-02",
+      "summary": "Airbnb (Not available)"
+    },
+    {
+      "start": "2026-11-05",
+      "end": "2026-11-06",
+      "summary": "Airbnb (Not available)"
+    },
+    {
+      "start": "2026-11-08",
+      "end": "2026-11-09",
       "summary": "Airbnb (Not available)"
     },
     {
@@ -162,8 +172,8 @@
       "summary": "Airbnb (Not available)"
     },
     {
-      "start": "2027-09-24",
-      "end": "2027-09-25",
+      "start": "2027-09-25",
+      "end": "2027-09-26",
       "summary": "Airbnb (Not available)"
     }
   ]
