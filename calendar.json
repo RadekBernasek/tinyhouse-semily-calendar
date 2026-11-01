@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T23:59:38.636212Z",
+  "updated": "2026-11-01T05:52:24.103347Z",
   "events": [
     {
       "start": "2026-10-30",
@@ -70,11 +70,6 @@
       "start": "2027-07-27",
       "end": "2027-08-01",
       "summary": "Reserved"
-    },
-    {
-      "start": "2026-10-29",
-      "end": "2026-10-30",
-      "summary": "Airbnb (Not available)"
     },
     {
       "start": "2026-11-01",
@@ -199,6 +194,11 @@
     {
       "start": "2027-08-01",
       "end": "2027-08-02",
+      "summary": "Airbnb (Not available)"
+    },
+    {
+      "start": "2027-11-01",
+      "end": "2027-11-02",
       "summary": "Airbnb (Not available)"
     }
   ]
